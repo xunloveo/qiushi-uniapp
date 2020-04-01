@@ -1,0 +1,80 @@
+/* 通用的样式 */
+
+/* flex布局 */
+.u-f {
+	display: flex;
+}
+
+.u-f-ac {
+	align-items: center;
+}
+
+.u-f-jcc {
+	justify-content: center;
+}
+
+.u-f-jcsb {
+	justify-content: space-between;
+}
+
+.u-f-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.u-f-col {
+	flex-direction: column;
+}
+
+.f1 {
+	flex: 1;
+}
+
+.tal {
+	text-align: left;
+}
+
+.pr {
+	position: relative;
+}
+
+.pa {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.pf {
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.color-ccc {
+	color: #CCCCCC;
+}
+
+.mr15-tb {
+	margin: 15rpx 0;
+}
+
+/* #ifdef MP-WEIXIN */
+.my-tab .uni-swiper-tab {
+
+	border: 0 !important;
+}
+
+.my-tab .uni-swiper-tab .swiper-tab-list {
+	width: 50%;
+}
+
+/* #endif */
+
+page {
+	height: 100%;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}

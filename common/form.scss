@@ -1,0 +1,22 @@
+.setting-container {
+	padding: 0 20rpx;
+}
+
+.user-setting-btn {
+	width: 100%;
+	margin: 20rpx 0;
+	background: #ffe933 !important;
+	border: 0 !important;
+	color: #333333 !important;
+}
+
+.user-setting-btn-disabled {
+	background: #f4f4f4 !important;
+	border: 1rpx solid #eeeeee !important;
+	color: #909090 !important;
+}
+
+.common-input {
+	font-size: 30rpx;
+	border-bottom: 1rpx solid #f4f4f4;
+}

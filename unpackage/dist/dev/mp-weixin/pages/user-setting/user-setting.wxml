@@ -1,0 +1,1 @@
+<view class="setting-container data-v-4ccabf0a"><block wx:for="{{settingList}}" wx:for-item="item" wx:for-index="__i0__" wx:key="*this"><block class="data-v-4ccabf0a"><home-list vue-id="{{'1-'+__i0__}}" item="{{item}}" class="data-v-4ccabf0a" bind:__l="__l"></home-list></block></block><button class="user-setting-btn data-v-4ccabf0a" type="primary">退出登录</button></view>
